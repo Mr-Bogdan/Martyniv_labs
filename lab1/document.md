@@ -2,7 +2,7 @@
 
 ## Patterns
 
-```
+```python
 class Singleton:
     __instance = None
 
@@ -16,5 +16,5 @@ a = Singleton()
 b = Singleton()
 
 print(a is b)
-print(id(a), id(b))s
+print(id(a), id(b))
 ```
