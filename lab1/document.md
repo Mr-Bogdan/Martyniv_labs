@@ -16,5 +16,5 @@ a = Singleton()
 b = Singleton()
 
 print(a is b)
-print(id(a), id(b))
+print(id(a), id(b))s
 ```
